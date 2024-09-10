@@ -1,0 +1,15 @@
+name: Hello Willa!
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  hello_willa_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Say Hello To Willa
+        run: |
+          echo "Hello Willa! haha"
+          
