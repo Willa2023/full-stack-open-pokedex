@@ -12,4 +12,12 @@ jobs:
       - name: Say Hello To Willa
         run: |
           echo "Hello Willa! haha"
+
+      - name: Now it is
+        run: |
+          date
+
+      - name: Directory content
+        run: |
+          ls -l
           
